@@ -1,0 +1,64 @@
+main{
+
+width:80%;
+margin: 0 auto;
+}
+
+canvas { 
+	border: 1px solid #ccc;
+	margin: 50px;
+
+}
+
+h1 {
+	font-size: 5em;
+	font-family: sans-serif; 
+	color:red;
+	padding: 50px;
+}
+
+
+.rounded {
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	border: none;
+
+}
+
+#edit button, 
+#thickness button {
+	width: 90px;
+	height: 40px;
+	
+}
+
+
+
+#black {
+	background-color: #000000;
+}
+
+#brown {
+	background-color: #5E2021;
+}
+
+#red {
+	background-color: #BA131B;
+}
+
+#yellow {
+	background-color: #FFBD07;
+}
+
+#green {
+	background-color: #1BB218;
+}
+
+#turquoise {
+	background-color: #069C9A;
+}
+
+#blue {
+	background-color: #0377A6;
+}

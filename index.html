@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>hohoho</title>
+			<script src="js/script.js"> </script>
+			<meta charset="utf-8" />
+			<link rel="stylesheet" type="text/css" href="reset.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+			<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+			<script>
+				$( document ).on( "mousemove", function( event ) {
+				  $( "#log" ).text( "pageX: " + event.pageX + ", pageY: " + event.pageY );
+				});
+
+			</script>
+		</head>
+
+		<body>
+
+		<header>
+			<h1>Ardoise Magique</h1>
+		</header>
+
+		<main>
+			
+			<div id="attach"></div>
+			<div id="log"></div>
+
+			<hr/>
+			
+			<section>
+				<article id="edit">
+					<p>Outils</p>
+					<button id="eraser" type="button" name="eraser">
+						<i class="fa fa-eraser" aria-hidden="true"></i>
+					</button>
+					<button id="eyedrop" type="button" name"eyedrop">
+						<i class="fa fa-eyedropper" aria-hidden="true"></i>
+					</button>
+				</article>
+
+				<article id="color">
+					<button id="black" class="rounded" type="button" name="black"></button>
+					<button id="brown" class="rounded" type="button" name="brown"></button>
+					<button id="red" class="rounded" type="button" name="red"></button>
+					<button id="yellow" class="rounded" type="button" name="yellow"></button>
+					<button id="green" class="rounded" type="button" name="green"></button>
+					<button id="turquoise" class="rounded" type="button" name="turquoise"></button>
+					<button id="blue" class="rounded" type="button" name="blue"></button>
+				</article>
+
+				<article id="thickness">
+					<button id="thin" type="button" name"thin">THIN</button>
+					<button id="regular" type="button" name"regulat">REGULAR</button>
+					<button id="thick" type="button" name"thick">THICK</button>
+				</article>
+
+				<button id="newdimensions" type="button" name"newdimension">NEW</button>
+
+
+			</section>
+		</main>
+
+		<footer>
+		</footer>
+
+		</body>
+		<script type="text/javascript" src="Program.js"></script>
+		<script type="text/javascript" src="Brush.js"></script>
+		<script type="text/javascript" src="Slate.js"></script>
+		<script type="text/javascript" src="index.js"></script>
+
+	</html>
+
+
+
